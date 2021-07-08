@@ -1,7 +1,6 @@
 {
-  "name": "heroku-test",
+  "name": "usermanager",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -12,9 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "pg": "^8.6.0"
+    "pg": "^8.6.0",
+    "pug": "^3.0.2",
+    "pug-bootstrap": "^0.0.16"
   },
   "devDependencies": {
     "dotenv": "^10.0.0"
-  }
+  },
+  "description": ""
 }
